@@ -1,0 +1,7 @@
+{
+	"Run":{
+		"StartCommand":"VBoxManage startvm ubuntu --type HeadLess",
+		"EndCommand":"VBoxManage controlvm ubuntu poweroff soft"
+	},
+	"LogsFile":"./logs"
+}
