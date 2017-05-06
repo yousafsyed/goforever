@@ -8,11 +8,11 @@ This service requires environment variable
 
 ```javascript
 {
-	"BVMConfig":{
+	"Run":{
 		"StartCommand":"VBoxManage startvm ubuntu --type HeadLess",
 		"EndCommand":"VBoxManage controlvm ubuntu poweroff soft"
 	},
-	"LogsFile":"c:/path/to/logs"
+	"LogsFile":"./logs"
 }
 
 ```
@@ -23,4 +23,5 @@ This service requires environment variable
 ```
 ./goforever.exe install
 ```
+
 

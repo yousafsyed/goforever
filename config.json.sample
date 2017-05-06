@@ -1,7 +1,7 @@
 {
 	"Run":{
-		"StartCommand":"VBoxManage startvm ubuntu --type HeadLess",
-		"EndCommand":"VBoxManage controlvm ubuntu poweroff soft"
+		"StartCommand":"VBoxManage startvm ubuntu1 --type HeadLess",
+		"EndCommand":"VBoxManage controlvm ubuntu1 poweroff soft"
 	},
-	"LogsFile":"./logs"
+	"LogsFile":"c:/wamp/www/goforever/logs"
 }
