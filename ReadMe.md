@@ -18,6 +18,7 @@ This service requires environment variable
 ```
 
 2. Please make sure virtualbox is also installed as administrator
+3. For windows nssm service is required  for more information please goto (https://nssm.cc/)
 
 ### Installation
 ```
